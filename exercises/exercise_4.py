@@ -7,6 +7,6 @@ else:
   print("Entered number is four digits now checking for symmetry")
 checkings=str(symmetry)
 if checkings[0]==checkings[3] and checkings[1]==checkings[2]:
-  print(1"Entered number is symmetrical")
+  print(1)
 else:
-  print(0,"No symmetry found")
+  print(0)
