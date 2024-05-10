@@ -5,8 +5,8 @@ if symmetry>9999 or symmetry<1000:
   print("The number entered is not four digits")
 else:
   print("Entered number is four digits now checking for symmetry")
-str(symmetry)
-if symmetry[0]==symmetry[3] and symmetry[1]==symmetry[2]:
-  print(1)
+checkings=str(symmetry)
+if checkings[0]==checkings[3] and checkings[1]==checkings[2]:
+  print(1"Entered number is symmetrical")
 else:
-  print(0)
+  print(0,"No symmetry found")
